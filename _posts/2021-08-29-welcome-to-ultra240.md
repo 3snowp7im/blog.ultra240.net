@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to ULTRA240"
 date:   2021-08-30 01:21:00 -0500
 ---
+
 Welcome to the ULTRA240 development blog. ULTRA240 is game engine designed to
 power retro-style platformers. I'm Mouse, author of [sotn.io](https://sotn.io),
 the Symphony of the Night randomizer. If you know me at all through the SotN
@@ -67,7 +68,8 @@ working on this project. I may have some more to say on that in a later
 entry. I also believe that the way map boundaries are handled is worth a deep
 dive into at some point as well.
 
-Finally, to lightly touch on the topic of the blog itself, it exists mainly as a way to consolidate my documentation of this project. That documentation might
+Finally, to lightly touch on the topic of the blog itself. It exists mainly as
+a way to consolidate my documentation of this project. That documentation might
 include articles on how some features were implemented as well as walkthroughs
 of the code. It is my hope that it might help some others, or, at the very
 least, might serve future me as a fun retrospective on this project's
