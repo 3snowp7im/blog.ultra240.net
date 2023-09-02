@@ -27,7 +27,7 @@ boundaries separate you from the other rooms of the building, and ultimately,
 from the outside. The nature of electrostatic forces prevents the particles that
 you consist of from slipping in-between the particles that make up the floor, 
 despite gravity's constant effort to pull you together. Conveniently, the
-physics in our observable universe have a way keeping solids such as yourself
+physics in our observable universe have a way of keeping solids such as yourself
 within the bounds of other solids.
 
 Not all boundaries must be physical. Traditional sports define an area of play
@@ -60,7 +60,7 @@ detect a collision between the player and a boundary, it is commonly called a
 "an out of bounds". As a side note, there are *many* categories of glitches,
 many of which are exploitable by
 [speedrunners](https://en.wikipedia.org/wiki/Speedrun) to beat video games fast.
-In is even common for speedrunners to *combine* different categories of glitches
+It is even common for speedrunners to *combine* different categories of glitches
 in order to "break" the game, as we'll soon see.
 
 Collision detection is usually performed in one of two ways: *a posteriori* or
