@@ -4,20 +4,21 @@ title:  "Welcome to ULTRA240"
 date:   2021-08-30 01:21:00 -0500
 ---
 
-Welcome to the ULTRA240 development blog. ULTRA240 is game engine designed to
+Welcome to the ULTRA240 development blog. ULTRA240 is a game engine designed to
 power retro-style platformers. I'm Mouse, author of [sotn.io](https://sotn.io),
 the Symphony of the Night randomizer. If you know me at all through the SotN
 community, you know I love the Metroidvania genre in general, and the
 synergistic movement options in SotN specifically. If you're not familiar with
-the concept of synergistic movement, my fellow speedrunner PCTrax has a [great video on the topic](https://www.youtube.com/watch?v=XsSqZLDXmTU) over on his
-YouTube channel.
+the concept of synergistic movement, my fellow speedrunner PCTrax has a
+[great video on the topic](https://www.youtube.com/watch?v=XsSqZLDXmTU) over on
+his YouTube channel.
 
-While Metroidvanias are a popular genre for indie games of recent years, they
-mostly focus on exploration, and only employ movement options to further that
-cause. As a result, movement options tend to exist only to open previously
-inaccessible paths, rarely rewarding the player for employing them in their
-regular pathing. On the other hand, SotN's unique implementation of 
-transformations allowthe player to blend all its movement tech to the point 
+While Metroidvanias are a popular genre for indie games of recent years, the
+recent titles mostly focus on exploration, and only employ movement options to
+further that cause. As a result, movement options tend to exist only to open
+previously inaccessible paths, rarely rewarding the player for employing them
+in their regular pathing. On the other hand, SotN's unique implementation of 
+transformations allow the player to blend all its movement tech to the point 
 that, when mastered, going from points A to B becomes significantly faster and
 just feels fun in and of itself. That is my inspiration for the game I'm
 working on in my spare time. To facilitate that goal, I decided to write a game
@@ -27,7 +28,8 @@ The project is still in the very early phase of development, but I have a good
 idea of where I'm going with it. As the name implies, ULTRA240 renders in 240p
 (256 x 240). I'm currently targeting the POSIX platform, but all
 system-specific code is abstracted into modules that can be ported easily. To
-that end, the media layer is implemented on top of the cross platform [SDL](https://www.libsdl.org/) library.
+that end, the media layer is implemented on top of the cross platform 
+[SDL](https://www.libsdl.org/) library.
 
 The engine will abstract away all minutiae of creating a window,
 loading resources, drawing graphics, playing sounds, detecting player input,
