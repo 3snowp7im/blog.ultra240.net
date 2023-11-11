@@ -186,19 +186,18 @@ function drawImage(ctx, src, x, y, dx, dy, alpha) {
   const ctx = canvas.getContext('2d')
   ctx.lineWidth = 3
   drawImage(ctx, '/static/tux.png', 180, 60, 100, 100, .5)
-  drawImage(ctx, '/static/tux.png', 300, 60, 100, 100, 1.).then(function() {
-    ctx.strokeStyle = 'blue'
-    ctx.strokeRect(120, 0, 240, 240)
-    ctx.strokeStyle = 'red'
-    ctx.beginPath()
-    ctx.moveTo(280, 100)
-    ctx.lineTo(310, 100)
-    ctx.lineTo(300, 90)
-    ctx.moveTo(310, 100)
-    ctx.lineTo(300, 110)
-    ctx.closePath()
-    ctx.stroke()
-  })
+  drawImage(ctx, '/static/tux.png', 300, 60, 100, 100, 1.)
+  ctx.strokeStyle = 'blue'
+  ctx.strokeRect(120, 0, 240, 240)
+  ctx.strokeStyle = 'red'
+  ctx.beginPath()
+  ctx.moveTo(280, 100)
+  ctx.lineTo(310, 100)
+  ctx.lineTo(300, 90)
+  ctx.moveTo(310, 100)
+  ctx.lineTo(300, 110)
+  ctx.closePath()
+  ctx.stroke()
 }
 
 // Escape
@@ -207,18 +206,17 @@ function drawImage(ctx, src, x, y, dx, dy, alpha) {
   const ctx = canvas.getContext('2d')
   ctx.lineWidth = 3
   drawImage(ctx, '/static/tux.png', 180, 60, 100, 100, .5)
-  drawImage(ctx, '/static/tux.png', 370, 60, 100, 100, 1.).then(function() {
-    ctx.strokeStyle = 'blue'
-    ctx.strokeRect(120, 0, 240, 240)
-    ctx.strokeStyle = 'red'
-    ctx.beginPath()
-    ctx.moveTo(280, 100)
-    ctx.lineTo(380, 100)
-    ctx.lineTo(370, 90)
-    ctx.moveTo(380, 100)
-    ctx.lineTo(370, 110)
-    ctx.closePath()
-    ctx.stroke()
-  })
+  drawImage(ctx, '/static/tux.png', 370, 60, 100, 100, 1.)
+  ctx.strokeStyle = 'blue'
+  ctx.strokeRect(120, 0, 240, 240)
+  ctx.strokeStyle = 'red'
+  ctx.beginPath()
+  ctx.moveTo(280, 100)
+  ctx.lineTo(380, 100)
+  ctx.lineTo(370, 90)
+  ctx.moveTo(380, 100)
+  ctx.lineTo(370, 110)
+  ctx.closePath()
+  ctx.stroke()
 }
 </script>

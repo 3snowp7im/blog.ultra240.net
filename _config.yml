@@ -20,8 +20,6 @@ description: >-
 domain: blog.ultra240.net
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://blog.ultra240.net
-twitter_username: 3snow_p7im
-github_username:  3snowp7im
 
 # Build settings
 markdown: kramdown
