@@ -16,7 +16,7 @@
 title: ULTRA240 Development Blog
 email: 3snowp7im@gmail.com
 description: >-
-  Documenting the development of the ULTRA240 game engine.
+  Documenting the development of the ULTRA240 game library.
 domain: blog.ultra240.net
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://blog.ultra240.net
