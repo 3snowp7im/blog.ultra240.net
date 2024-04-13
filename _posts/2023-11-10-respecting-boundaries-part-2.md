@@ -102,7 +102,7 @@ facing away boundary's normal.
 
 Therefore, all boundaries in ULTRA240 are one-way, it's just a matter of
 orientation that keeps entities in bounds. Here's a video demonstrating the use
-of moving platforms and a horizontal one-way boundary at the end. Moving
+of moving platforms and a vertical one-way boundary at the end. Moving
 platforms are implemented as one-way boundaries, allowing the player to jump
 through the bottom of the platform and land on top of it.
 
