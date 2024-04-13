@@ -27,13 +27,15 @@ engine specifically designed for open world platformers.
 The project is still in the very early phase of development, but I have a good
 idea of where I'm going with it. As the name implies, ULTRA240 renders in 240p
 (256 x 240). I'm currently targeting the POSIX platform, but all
-system-specific code is abstracted into modules that can be ported easily. To
-that end, the media layer is implemented on top of the cross platform 
-[SDL](https://www.libsdl.org/) library.
+system-specific code is abstracted into modules that can be ported easily.
+~~To that end, the media layer is implemented on top of the cross platform 
+[SDL](https://www.libsdl.org/) library.~~
+**Edit: The media layer is no longer part of this project. Please see the post
+[Less is more](/development/update/2023/11/20/less-is-more.html).**
 
-The engine will abstract away all minutiae of creating a window,
+~~The engine will abstract away all minutiae of creating a window,
 loading resources, drawing graphics, playing sounds, detecting player input,
-and handling entity collisions. Everything else must be handled by the game's
+and handling entity collisions.~~ Everything else must be handled by the game's
 runtime, including handling player input, implementing movement, entity loading
 strategies, and even the game loop itself. A companion SDK exists to compile
 [Tiled](https://www.mapeditor.org/) resources into a custom binary format, and
