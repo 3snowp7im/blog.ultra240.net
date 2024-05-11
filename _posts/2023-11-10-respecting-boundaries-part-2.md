@@ -2,7 +2,6 @@
 layout: post
 title:  "Respecting boundaries (part 2)"
 date:   2023-11-10 22:00:00 -0500
-categories: boundaries maps collision
 ---
 
 I recently set about implementing moving platforms in my sandbox game. ULTRA240
@@ -20,9 +19,9 @@ can jump onto. The player is able to jump onto the raised platform from beneath
 it and not hit their head on the way up, instead landing on the platform on
 the way down from their jump height.
 
-<div style="text-align:center">
+<p style="text-align:center">
     <canvas id="jump" width="400" height="340"></canvas>
-</div>
+</p>
 
 As it turns out, ULTRA240 already supported one-way boundaries. In fact,
 ULTRA240 *only* supports one-way boundaries! This is because, in the context of
@@ -68,9 +67,9 @@ your middle finger in the direction of the other vector. Now, stick your thumb
 out and whatever direction it points in is the cross product of your index
 finger and middle finger vectors.
 
-<div style="text-align: center">
+<p style="text-align: center">
     <img src="/static/right-hand-rule.png">
-</div>
+</p>
 
 Applying this to your piece of paper, your index finger might point parallel to
 its long side and your middle finger parallel to its short side. But equally
@@ -106,7 +105,7 @@ of moving platforms and a vertical one-way boundary at the end. Moving
 platforms are implemented as one-way boundaries, allowing the player to jump
 through the bottom of the platform and land on top of it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WOMSUh3V4uo?si=GRvn0_8K63nJAco6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/WOMSUh3V4uo?si=GRvn0_8K63nJAco6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 
 Development of ULTRA240 has gotten to a pretty good state, aside from the fact
 that there is absolutely no sound system at the moment. I previously attempted

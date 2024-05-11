@@ -45,22 +45,22 @@ I've been keeping a video record of new features as I've been adding them. The
 first video I made demonstrates creating a window, loading a map, and scrolling
 the screen around to show off a parallax effect in the background elements.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yrK8Lh0HS_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/yrK8Lh0HS_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 A few weeks later, I added a mechanism for loading and drawing entities.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Iw8WIaDAIeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Iw8WIaDAIeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 The next step was adding an easy interface for controlling animations created
 in Tiled's tileset editor. That led to giving the player control over their
 entity and implementing some very rudimentary collision detection.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C9g22whP4YM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/C9g22whP4YM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 I then improved the collision detection and added the ability to transition
 between maps.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/URoBS2PQ7iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/URoBS2PQ7iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 Recently, I've revisited the animation system to improve it's handling of
 collision boxes that change between frames. This is necessary in order to

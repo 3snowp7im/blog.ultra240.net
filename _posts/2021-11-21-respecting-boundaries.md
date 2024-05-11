@@ -2,7 +2,6 @@
 layout: post
 title:  "Respecting boundaries"
 date:   2021-11-22 14:41:00 -0500
-categories: boundaries maps collision animation
 ---
 
 In my previous post, an introduction to ULTRA240 and to the blog, I briefly
@@ -67,9 +66,9 @@ Collision detection is usually performed in one of two ways: *a posteriori* or
 *a priori*. *A posteriori* is to apply a movement vector to an entity and then
 determine if the entity intersects with a boundary at its new position:
 
-<div style="text-align:center">
+<p style="text-align:center">
     <canvas id="intersection" width="480" height="240"></canvas>
-</div>
+</p>
 
 This method of collision detection is very popular because it is easy to
 implement and usually produces the correct result. As long as your movement
@@ -78,9 +77,9 @@ boundaries at some point along their path before they have a chance to get out
 of bounds. However, what if in a single frame an entity is able to acheive a
 large enough movement vector to completely cross a boundary?
 
-<div style="text-align:center">
+<p style="text-align:center">
     <canvas id="escape" width="480" height="240"></canvas>
-</div>
+</p>
 
 Since the entity's position doesn't intersect with the boundary after the
 movement vector was applied, this method of collision detection is happy to
@@ -163,7 +162,7 @@ work. The most notable addition from the previous videos are foreground layers,
 and the implementation of jump and fall animations with dynamic collision boxes
 that can safely change during different animation frames.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B2Ay7ZyE-Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/B2Ay7ZyE-Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <script>
 function drawImage(ctx, src, x, y, dx, dy, alpha) {

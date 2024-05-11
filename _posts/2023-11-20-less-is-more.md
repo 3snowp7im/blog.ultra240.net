@@ -2,7 +2,6 @@
 layout: post
 title:  "Less is more"
 date:   2023-11-20 12:00:00 -0500
-categories: development update
 ---
 
 At the end of my last post, I speculated on what to work on next and suggested
